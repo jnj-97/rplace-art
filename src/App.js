@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 
+import Header from './views/Header';
+import Footer from './views/Footer'
+import Login from './views/Login'
 function App() {
   return (
     <div className="App">
-      
-      <div className='bg-red-400 text-white h-96 w-screen'>Hello</div>
-    </div>
+      <Header/>
+      <Login/>
+    <Footer/>
+  
+     </div>
   );
 }
 
